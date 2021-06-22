@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.jessica</groupId>
     <artifactId>jenkins-deploy-test</artifactId>
-    <version>release-1.5</version>
+    <version>release-1.0</version>
     <packaging>war</packaging>
     <name>jenkins-deploy-test</name>
     <description>Demo project for Spring Boot</description>
@@ -45,13 +45,13 @@
         <repository>
             <id>releases</id>
             <name>User Project Release</name>
-            <url>http://localhost:8060/repository/maven-releases/</url>
+            <url>http://47.107.104.195:8081/repository/maven-releases/</url>
         </repository>
 
         <snapshotRepository>
             <id>snapshots</id>
             <name>User Project SNAPSHOTS</name>
-            <url>http://localhost:8060/repository/maven-snapshots/</url>
+            <url>http://47.107.104.195:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
